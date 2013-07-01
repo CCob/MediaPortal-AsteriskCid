@@ -1,0 +1,23 @@
+Release 0.1 - 04 Aug 2012
+
+* Initial release
+
+Release 0.2 - 05 Aug 2012
+
+* Pause/Resume playback when notification occurs
+* Auto resume playback on call hangup
+* Single channel filter, can now limit which incoming channel to listen on
+* First mpe1 based release
+
+Release 0.3 - 12 Aug 2012
+
+* Added supported for monitoring an extensions mailbox
+* Can now alter full name and photo for contacts
+* Retry Asterisk connection when not available
+
+Release 0.4 - 22 Jun 2013
+
+* Removed custom dialog in favour of standard DialogNotify (should be compatible with all skins now)
+* Caller thumbnails are now saved and loaded from Thumbs folder
+* Worked on custom addition of contacts instead of using google contacts, still needs work though
+* Only works with MP 1.4 and above, since previous versions of the plugin used log4net and MP 1.4 now also uses it.  This was to prevent conflicts

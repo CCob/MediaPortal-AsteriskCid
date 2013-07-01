@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0</Version>
+  <Groups>
+    <Items>
+      <GroupItem Name="Default">
+        <ParentGroup />
+        <DisplayName>Default</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Default</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\FluentNHibernate.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ac548406-f027-45fa-ad59-04313e32b0fe}-FluentNHibernate.dll</ZipFileName>
+              <DestinationFilename>%Base%\FluentNHibernate.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\Google.GData.Client.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{45c41768-eeb3-4dac-9ce0-ac9dc0f2c30d}-Google.GData.Client.dll</ZipFileName>
+              <DestinationFilename>%Base%\Google.GData.Client.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\Google.GData.Contacts.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c9a61617-7e51-462c-8734-07c740879abe}-Google.GData.Contacts.dll</ZipFileName>
+              <DestinationFilename>%Base%\Google.GData.Contacts.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\Google.GData.Extensions.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{73cc9cd6-cd11-4de2-b24d-6125c3c92311}-Google.GData.Extensions.dll</ZipFileName>
+              <DestinationFilename>%Base%\Google.GData.Extensions.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\Iesi.Collections.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f01f48b0-286c-4de1-a311-05aed39cabbb}-Iesi.Collections.dll</ZipFileName>
+              <DestinationFilename>%Base%\Iesi.Collections.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\NHibernate.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d411abb1-c34e-4974-9c59-65719b7bf231}-NHibernate.dll</ZipFileName>
+              <DestinationFilename>%Base%\NHibernate.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\NHibernate.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{114c0d38-be6e-44c5-8e6b-231faad315a1}-NHibernate.xml</ZipFileName>
+              <DestinationFilename>%Base%\NHibernate.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>dependencies\System.Data.SQLite.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e93f8a98-18dc-4f05-914f-7adf25f86227}-System.Data.SQLite.dll</ZipFileName>
+              <DestinationFilename>%Base%\System.Data.SQLite.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>AsteriskCid\bin\Release\AcidLookup.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{81244c8c-63e3-4005-9554-3058c778bde2}-AcidLookup.dll</ZipFileName>
+              <DestinationFilename>%Base%\plugins\process\AcidLookup.dll</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>AsteriskCid\bin\Release\Asterisk.NET.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0a2e3a3f-9541-4f8b-9294-17bdacdabb23}-Asterisk.NET.dll</ZipFileName>
+              <DestinationFilename>%Base%\Asterisk.NET.dll</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+    </Items>
+  </Groups>
+  <Sections>
+    <Items>
+      <SectionItem Guid="050005b6-4c4b-4602-accb-7f531ccd64a4" Name="Welcome Screen" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>Welcome to the Extension Installer for [Name]</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Description">
+              <Value>This will install [Name] version [Version] on your computer.
+It is recommended that you close all other applications before continuing.
+Click Next to continue or Cancel to exit Setup.</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Welcome Screen</PanelName>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="0a0484e2-6b18-4126-8a94-be35b4833e4d" Name="Install Section" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Install Section</PanelName>
+        <WizardButtonsEnum>Next</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="24ed63e4-6d94-4b8d-8137-953e508d5427" Name="Setup Complete" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>The Extension Installer Wizard has successfully installed [Name].</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Show radio buttons">
+              <Value />
+              <ValueType>Bool</ValueType>
+              <Description>Use radiobutton in place of combobox</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Setup Complete</PanelName>
+        <WizardButtonsEnum>Finish</WizardButtonsEnum>
+      </SectionItem>
+    </Items>
+  </Sections>
+  <Dependencies>
+    <Items>
+      <DependencyItem>
+        <Type>MediaPortal</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MaxVersion>
+        <WarnOnly>false</WarnOnly>
+        <Message>This version of Asterisk Caller ID Lookup requires MediaPortal 1.4 or above</Message>
+        <Name>MediaPortal</Name>
+      </DependencyItem>
+    </Items>
+  </Dependencies>
+  <PluginDependencies>
+    <Items />
+  </PluginDependencies>
+  <GeneralInfo>
+    <Name>Asterisk Caller ID Lookup</Name>
+    <Id>f2a17e5d-0241-40c9-b003-df33360073fe</Id>
+    <Author>CCob</Author>
+    <HomePage>http://forum.team-mediaportal.com/threads/new-plugin-asterisk-caller-id-notify-acid-notify.109939/</HomePage>
+    <ForumPage>http://forum.team-mediaportal.com/threads/new-plugin-asterisk-caller-id-notify-acid-notify.109939/</ForumPage>
+    <UpdateUrl>http://forum.team-mediaportal.com/threads/new-plugin-asterisk-caller-id-notify-acid-notify.109939/</UpdateUrl>
+    <Version>
+      <Major>0</Major>
+      <Minor>4</Minor>
+      <Build>0</Build>
+      <Revision>0</Revision>
+    </Version>
+    <ExtensionDescription>Allowes Asterisk call information to be integrated into MediaPortal</ExtensionDescription>
+    <VersionDescription>Change Log
+
+* Added supported for monitoring an extensions mailbox
+* Can now alter full name and photo for contacts
+* Retry Asterisk connection when not available</VersionDescription>
+    <DevelopmentStatus>Alpha</DevelopmentStatus>
+    <OnlineLocation>http://forum.team-mediaportal.com/threads/new-plugin-asterisk-caller-id-notify-acid-notify.109939/</OnlineLocation>
+    <ReleaseDate>2012-08-03T14:11:02.4185839+01:00</ReleaseDate>
+    <Tags>asterisk google contacts photo callerid caller id</Tags>
+    <Location>C:\Users\Ceri\Documents\My Dropbox\source\MePo Asterisk CallerId\AcidLookup [Version].mpe1</Location>
+    <Params>
+      <Items>
+        <SectionParam Name="Icon">
+          <Value>AsteriskCid\Icons\AcidLookupIcon.png</Value>
+          <ValueType>File</ValueType>
+          <Description>The icon file of the package (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Online Icon">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Configuration file">
+          <Value />
+          <ValueType>Template</ValueType>
+          <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+        </SectionParam>
+        <SectionParam Name="Online Screenshots">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>Online stored screenshot urls separated by ; </Description>
+        </SectionParam>
+        <SectionParam Name="Force to uninstall on update">
+          <Value>yes</Value>
+          <ValueType>Bool</ValueType>
+          <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+        </SectionParam>
+      </Items>
+    </Params>
+  </GeneralInfo>
+  <UniqueFileList>
+    <Items>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\FluentNHibernate.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ac548406-f027-45fa-ad59-04313e32b0fe}-FluentNHibernate.dll</ZipFileName>
+        <DestinationFilename>%Base%\FluentNHibernate.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\Google.GData.Client.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{45c41768-eeb3-4dac-9ce0-ac9dc0f2c30d}-Google.GData.Client.dll</ZipFileName>
+        <DestinationFilename>%Base%\Google.GData.Client.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\Google.GData.Contacts.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c9a61617-7e51-462c-8734-07c740879abe}-Google.GData.Contacts.dll</ZipFileName>
+        <DestinationFilename>%Base%\Google.GData.Contacts.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\Google.GData.Extensions.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{73cc9cd6-cd11-4de2-b24d-6125c3c92311}-Google.GData.Extensions.dll</ZipFileName>
+        <DestinationFilename>%Base%\Google.GData.Extensions.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\Iesi.Collections.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f01f48b0-286c-4de1-a311-05aed39cabbb}-Iesi.Collections.dll</ZipFileName>
+        <DestinationFilename>%Base%\Iesi.Collections.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\NHibernate.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d411abb1-c34e-4974-9c59-65719b7bf231}-NHibernate.dll</ZipFileName>
+        <DestinationFilename>%Base%\NHibernate.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\NHibernate.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{114c0d38-be6e-44c5-8e6b-231faad315a1}-NHibernate.xml</ZipFileName>
+        <DestinationFilename>%Base%\NHibernate.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>dependencies\System.Data.SQLite.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e93f8a98-18dc-4f05-914f-7adf25f86227}-System.Data.SQLite.dll</ZipFileName>
+        <DestinationFilename>%Base%\System.Data.SQLite.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>AsteriskCid\bin\Release\AcidLookup.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{81244c8c-63e3-4005-9554-3058c778bde2}-AcidLookup.dll</ZipFileName>
+        <DestinationFilename>%Base%\plugins\process\AcidLookup.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>AsteriskCid\bin\Release\Asterisk.NET.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0a2e3a3f-9541-4f8b-9294-17bdacdabb23}-Asterisk.NET.dll</ZipFileName>
+        <DestinationFilename>%Base%\Asterisk.NET.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>AsteriskCid\Icons\AcidLookupIcon.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7bc10a7d-d302-489d-9878-1f2d1fa6f211}-AcidLookupIcon.png</ZipFileName>
+        <DestinationFilename />
+      </FileItem>
+    </Items>
+  </UniqueFileList>
+  <ProjectSettings>
+    <FolderGroups />
+    <ProjectFilename>MpeSetup.xmp2</ProjectFilename>
+    <UpdatePath1 />
+    <UpdatePath2 />
+    <UpdatePath3 />
+  </ProjectSettings>
+  <IsSkin>false</IsSkin>
+</PackageClass>

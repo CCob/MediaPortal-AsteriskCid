@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcidLookup", "AsteriskCid\AcidLookup.csproj", "{9F3D45E9-3189-48C3-847B-506669DE426D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asterisk.NET", "Asterisk.NET\Asterisk.NET.csproj", "{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteriskCidTest", "AsteriskCidTest\AsteriskCidTest.csproj", "{2951FBFD-05FB-46F8-877A-B996C7F2FB05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F3D45E9-3189-48C3-847B-506669DE426D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3D45E9-3189-48C3-847B-506669DE426D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3D45E9-3189-48C3-847B-506669DE426D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3D45E9-3189-48C3-847B-506669DE426D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2951FBFD-05FB-46F8-877A-B996C7F2FB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2951FBFD-05FB-46F8-877A-B996C7F2FB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2951FBFD-05FB-46F8-877A-B996C7F2FB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2951FBFD-05FB-46F8-877A-B996C7F2FB05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
